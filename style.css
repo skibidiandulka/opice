@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #6C63FF;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.students {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.student {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.student img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.student h2 {
+    font-size: 1.5rem;
+    color: #6C63FF;
+    margin-bottom: 10px;
+}
+
+.student p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
